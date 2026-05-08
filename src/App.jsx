@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './views/Home';
@@ -24,12 +23,12 @@ function App() {
             <Route path="/teams" element={<Teams />} />
             
             <Route path="/teams/:id" element={<Teams />} />
-            
-            <Route path="/players" element={<Players />} />
-            <Route path="/players/:id" element={<Players />} />
-            <Route path="/squad-builder" element={<SquadBuilder />} />
-          </Routes>
-        </main>
+              
+              <Route path="/players" element={<Players />} />
+              <Route path="/players/:id" element={<Players />} />
+              <Route path="/squad-builder" element={<SquadBuilder />} />
+            </Routes>
+          </main>
       </div>
     </BrowserRouter>
   );

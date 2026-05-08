@@ -67,26 +67,16 @@ const TeamQuiz = ({ teamId, teamName, onExit }) => {
             {questions[currentQuestion].question}
           </div>
           <div className="options-grid">
-            {questions[currentQuestion].options.map((option, index) => {
-              let btnClass = "option-btn";
-              if (selectedAnswer) {
-                if (option === questions[currentQuestion].answer) {
-                  btnClass += " correct";
-                } else if (option === selectedAnswer) {
-                  btnClass += " incorrect";
-                }
-              }
-              return (
-                <button 
-                  key={index} 
-                  className={btnClass} 
-                  onClick={() => handleAnswerClick(option)}
-                  disabled={selectedAnswer !== null}
-                >
-                  {option}
-                </button>
-              );
-            })}
+            {questions[currentQuestion].options.map((option, index) => (
+              <button
+                key={index}
+                className="option-btn"
+                onClick={() => handleAnswerClick(option)}
+                disabled={selectedAnswer !== null}
+              >
+                {option}
+              </button>
+            ))}
           </div>
           <button onClick={onExit} className="quiz-btn-small">Quit Quiz</button>
         </div>

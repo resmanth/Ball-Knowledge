@@ -7,14 +7,12 @@ const SquadBuilder = () => {
   const [totalSpent, setTotalSpent] = useState(0);
   const [gameStatus, setGameStatus] = useState('playing'); // 'playing', 'won', 'lost'
 
-  // Generate random budget between 900M and 1300M
   useEffect(() => {
     const randomBudget = Math.floor(Math.random() * (1300 - 900 + 1)) + 900;
     setBudget(randomBudget);
     fetchPlayers();
   }, []);
 
-  // Update total spent and game status whenever squad changes
   useEffect(() => {
     const spent = selectedSquad.reduce((acc, player) => acc + player.price, 0);
     setTotalSpent(spent);
@@ -29,24 +27,16 @@ const SquadBuilder = () => {
   }, [selectedSquad, budget]);
 
   const fetchPlayers = async () => {
-    // ==========================================
-    // PLACEHOLDER: Insert your API URL here
-    // ==========================================
-    // Example: const response = await fetch('YOUR_API_ENDPOINT_HERE');
-    // const data = await response.json();
-    // setPlayers(data);
 
-    // Using mock data so the component is fully functional for testing
     const mockData = [
-      // Premium Superstars
+
       { id: 1, name: "Kylian Mbappé", image: "/player-avatar.png", price: 180 },
       { id: 2, name: "Erling Haaland", image: "/player-avatar.png", price: 170 },
       { id: 3, name: "Lionel Messi", image: "/player-avatar.png", price: 150 },
       { id: 4, name: "Vinícius Júnior", image: "/player-avatar.png", price: 140 },
       { id: 5, name: "Jude Bellingham", image: "/player-avatar.png", price: 140 },
       { id: 6, name: "Kevin De Bruyne", image: "/player-avatar.png", price: 130 },
-      
-      // Elite Mid-Tier
+
       { id: 7, name: "Harry Kane", image: "/player-avatar.png", price: 120 },
       { id: 8, name: "Bukayo Saka", image: "/player-avatar.png", price: 110 },
       { id: 9, name: "Rodri", image: "/player-avatar.png", price: 100 },
@@ -55,8 +45,7 @@ const SquadBuilder = () => {
       { id: 12, name: "Ruben Dias", image: "/player-avatar.png", price: 85 },
       { id: 13, name: "Trent A-Arnold", image: "/player-avatar.png", price: 80 },
       { id: 14, name: "William Saliba", image: "/player-avatar.png", price: 75 },
-      
-      // Value Budget Options
+
       { id: 15, name: "Alisson Becker", image: "/player-avatar.png", price: 70 },
       { id: 16, name: "Julian Alvarez", image: "/player-avatar.png", price: 70 },
       { id: 17, name: "Ederson", image: "/player-avatar.png", price: 65 },
@@ -87,7 +76,7 @@ const SquadBuilder = () => {
 
   return (
     <div className="squad-builder-container">
-      {/* Header & Tracker */}
+      {}
       <div className="sb-header">
         <h1 className="sb-title">Budget Squad Builder</h1>
         <div className="sb-tracker-panel">
@@ -106,7 +95,7 @@ const SquadBuilder = () => {
         </div>
       </div>
 
-      {/* Game Status Banner */}
+      {}
       {gameStatus === 'lost' && (
         <div className="sb-status-banner sb-busted">
           <h2>Busted! You exceeded the budget.</h2>
@@ -121,10 +110,10 @@ const SquadBuilder = () => {
         </div>
       )}
 
-      {/* Main Content Layout */}
+      {}
       <div className="sb-layout">
         
-        {/* Available Players Grid */}
+        {}
         <div className="sb-available-players">
           <h2 className="sb-section-title">Available Players</h2>
           <div className="sb-grid">
@@ -148,7 +137,7 @@ const SquadBuilder = () => {
           </div>
         </div>
 
-        {/* Selected Squad List */}
+        {}
         <div className="sb-squad-sidebar">
           <h2 className="sb-section-title">Your Squad</h2>
           <div className="sb-squad-list">

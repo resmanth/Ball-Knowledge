@@ -27,8 +27,6 @@ const  PlayerProfile = ({ player, imageUrl }) => {
     return  formatter.format(value);
   };
 
-
-  
   return (
     <div className="player-profile-card">
       <div className="profile-header">
@@ -48,8 +46,6 @@ const  PlayerProfile = ({ player, imageUrl }) => {
           </div>
         </div>
       </div>
-
-      
 
       <div  className="profile-body">
         <div  className="stats-grid premium-grid">
@@ -73,15 +69,10 @@ const  PlayerProfile = ({ player, imageUrl }) => {
           </div>
         </div>
 
-        
-
         {player.team && (
           <div className="team-section">
             <h3 className="section-title">Current Team</h3>
-            <div className="team-card" style={{
-              '--team-primary': player.team.teamColors?.primary  || '#333',
-              '--team-secondary': player.team.teamColors?.secondary || '#666'
-            }}>
+            <div className="team-card">
               <div className="team-info">
                 <div className="team-name">{player.team.name}</div>
                 <div className="tournament-name">{player.team.tournament?.name}</div>
