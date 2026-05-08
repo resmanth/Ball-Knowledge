@@ -1,5 +1,5 @@
 export const quizData = {
-  // Argentina (4819)
+
   "4819": [
     { question: "How many FIFA World Cups has Argentina won in their history?", options: ["Two", "Three", "Four", "One"], answer: "Three" },
     { question: "Which player scored the famous 'Hand of God' goal?", options: ["Lionel Messi", "Gabriel Batistuta", "Diego Maradona", "Mario Kempes"], answer: "Diego Maradona" },
@@ -17,7 +17,7 @@ export const quizData = {
     { question: "Which Argentina player famously scored a stunning solo goal from his own half against England in 1986?", options: ["Jorge Valdano", "Diego Maradona", "Jorge Burruchaga", "Oscar Ruggeri"], answer: "Diego Maradona" },
     { question: "Which winger scored in both the 2021 Copa America Final and the 2022 World Cup Final for Argentina?", options: ["Julian Alvarez", "Lautaro Martinez", "Angel Di Maria", "Nicolas Gonzalez"], answer: "Angel Di Maria" }
   ],
-  // France (4481)
+
   "4481": [
     { question: "How many FIFA World Cups has France won?", options: ["One", "Two", "Three", "Four"], answer: "Two" },
     { question: "Who is France's all-time top goalscorer?", options: ["Thierry Henry", "Olivier Giroud", "Michel Platini", "Kylian Mbappé"], answer: "Olivier Giroud" },
@@ -35,7 +35,7 @@ export const quizData = {
     { question: "In the 2022 World Cup Final, who scored a hat-trick for France?", options: ["Antoine Griezmann", "Kylian Mbappé", "Olivier Giroud", "Randal Kolo Muani"], answer: "Kylian Mbappé" },
     { question: "What animal is the official symbol of the French Football Federation?", options: ["Lion", "Eagle", "Gallic Rooster", "Bear"], answer: "Gallic Rooster" }
   ],
-  // Brazil (4748)
+
   "4748": [
     { question: "How many World Cups has Brazil won?", options: ["Four", "Five", "Six", "Three"], answer: "Five" },
     { question: "Who is the all-time leading goalscorer for the Brazil national team?", options: ["Pelé", "Neymar", "Ronaldo", "Romário"], answer: "Neymar" },
@@ -53,7 +53,7 @@ export const quizData = {
     { question: "In 1994, Brazil defeated which nation on penalties to win the World Cup?", options: ["Germany", "Italy", "Argentina", "Netherlands"], answer: "Italy" },
     { question: "What are the primary colors of the Brazilian home kit?", options: ["Green and White", "Yellow and Green", "Blue and White", "Yellow and Blue"], answer: "Yellow and Green" }
   ],
-  // England (4713)
+
   "4713": [
     { question: "In what year did England win their only FIFA World Cup?", options: ["1966", "1970", "1958", "1990"], answer: "1966" },
     { question: "Who is the all-time top goalscorer for the England national team?", options: ["Wayne Rooney", "Bobby Charlton", "Harry Kane", "Gary Lineker"], answer: "Harry Kane" },
@@ -71,7 +71,7 @@ export const quizData = {
     { question: "Which English teenager scored a stunning solo goal against Argentina in 1998?", options: ["David Beckham", "Michael Owen", "Paul Scholes", "Rio Ferdinand"], answer: "Michael Owen" },
     { question: "Which team eliminated England in the quarter-finals of the 2022 World Cup?", options: ["Croatia", "France", "Brazil", "Morocco"], answer: "France" }
   ],
-  // Portugal (4704)
+
   "4704": [
     { question: "Which major international tournament did Portugal win in 2016?", options: ["FIFA World Cup", "UEFA Nations League", "UEFA European Championship", "Copa America"], answer: "UEFA European Championship" },
     { question: "Who is Portugal's all-time leading goalscorer?", options: ["Eusébio", "Pauleta", "Luis Figo", "Cristiano Ronaldo"], answer: "Cristiano Ronaldo" },
@@ -89,7 +89,7 @@ export const quizData = {
     { question: "Cristiano Ronaldo famously winked at the bench after which England player was sent off in 2006?", options: ["Steven Gerrard", "Frank Lampard", "Wayne Rooney", "David Beckham"], answer: "Wayne Rooney" },
     { question: "What are the primary colors of the Portuguese national team's kit?", options: ["Green and White", "Red and Green", "Blue and White", "Red and Gold"], answer: "Red and Green" }
   ],
-  // Spain (4698)
+
   "4698": [
     { question: "In what year did Spain win their first FIFA World Cup?", options: ["2006", "2010", "2014", "1982"], answer: "2010" },
     { question: "Who scored the winning goal for Spain in the 2010 World Cup Final?", options: ["Fernando Torres", "David Villa", "Andrés Iniesta", "Xavi"], answer: "Andrés Iniesta" },
@@ -107,7 +107,7 @@ export const quizData = {
     { question: "In the 2010 World Cup Final, which Dutch player famously kicked Xabi Alonso in the chest?", options: ["Mark van Bommel", "Nigel de Jong", "Wesley Sneijder", "Arjen Robben"], answer: "Nigel de Jong" },
     { question: "Who scored Spain's winning goal in the Euro 2008 Final?", options: ["David Villa", "Xavi", "Fernando Torres", "Carles Puyol"], answer: "Fernando Torres" }
   ],
-  // Germany (4711)
+
   "4711": [
     { question: "How many FIFA World Cups has Germany won?", options: ["Three", "Four", "Five", "Two"], answer: "Four" },
     { question: "Who is the all-time top goalscorer in FIFA World Cup history?", options: ["Gerd Müller", "Ronaldo", "Miroslav Klose", "Pelé"], answer: "Miroslav Klose" },
@@ -125,7 +125,7 @@ export const quizData = {
     { question: "Who scored Germany's first 'Golden Goal' to win Euro 96?", options: ["Jürgen Klinsmann", "Oliver Bierhoff", "Matthias Sammer", "Andreas Möller"], answer: "Oliver Bierhoff" },
     { question: "Which German player holds the record for most goals scored in a single World Cup tournament (10 goals in 1970)?", options: ["Gerd Müller", "Miroslav Klose", "Thomas Müller", "Helmut Rahn"], answer: "Gerd Müller" }
   ],
-  // Italy (4707)
+
   "4707": [
     { question: "How many FIFA World Cups has Italy won?", options: ["Two", "Three", "Four", "Five"], answer: "Four" },
     { question: "Which team did Italy defeat on penalties to win the 2006 World Cup?", options: ["Germany", "Brazil", "France", "Argentina"], answer: "France" },
@@ -143,7 +143,7 @@ export const quizData = {
     { question: "What is the primary color of the Italian national team's home kit?", options: ["Green", "White", "Red", "Blue"], answer: "Blue" },
     { question: "Which legendary Italian club did Paolo Maldini spend his entire career with?", options: ["Juventus", "Inter Milan", "AC Milan", "AS Roma"], answer: "AC Milan" }
   ],
-  // Netherlands (4705)
+
   "4705": [
     { question: "How many times has the Netherlands finished as runners-up in the FIFA World Cup?", options: ["One", "Two", "Three", "Four"], answer: "Three" },
     { question: "Which tactical philosophy was made famous by the Dutch in the 1970s?", options: ["Catenaccio", "Total Football", "Tiki-Taka", "Gegenpressing"], answer: "Total Football" },
@@ -161,7 +161,7 @@ export const quizData = {
     { question: "Which club did Johan Cruyff join in 1973, changing their history forever?", options: ["Real Madrid", "Barcelona", "Bayern Munich", "AC Milan"], answer: "Barcelona" },
     { question: "What color do the Netherlands wear for their home matches?", options: ["Red", "White", "Blue", "Orange"], answer: "Orange" }
   ],
-  // Uruguay (4725)
+
   "4725": [
     { question: "Uruguay won the very first FIFA World Cup. In what year was it?", options: ["1926", "1930", "1934", "1938"], answer: "1930" },
     { question: "How many FIFA World Cups has Uruguay won?", options: ["One", "Two", "Three", "Four"], answer: "Two" },
@@ -179,7 +179,7 @@ export const quizData = {
     { question: "Which Uruguayan striker played for Paris Saint-Germain and became their all-time top scorer before Mbappé?", options: ["Luis Suárez", "Diego Forlán", "Edinson Cavani", "Christian Stuani"], answer: "Edinson Cavani" },
     { question: "Where was the first FIFA World Cup held in 1930?", options: ["Brazil", "Argentina", "Uruguay", "Italy"], answer: "Uruguay" }
   ],
-  // USA (4724)
+
   "4724": [
     { question: "What is the best finish the US Men's National Team (USMNT) has ever achieved at a World Cup?", options: ["Quarter-finals", "Third Place", "Round of 16", "Fourth Place"], answer: "Third Place" },
     { question: "In what year did the USA achieve their best World Cup finish?", options: ["1930", "1994", "2002", "2014"], answer: "1930" },
@@ -197,7 +197,7 @@ export const quizData = {
     { question: "Which USMNT player became the first American to play in and win a UEFA Champions League Final?", options: ["Weston McKennie", "Christian Pulisic", "Tyler Adams", "Sergiño Dest"], answer: "Christian Pulisic" },
     { question: "The USMNT failed to qualify for which recent FIFA World Cup?", options: ["2010", "2014", "2018", "2022"], answer: "2018" }
   ],
-  // Belgium (4717)
+
   "4717": [
     { question: "What is the nickname of the Belgian national team?", options: ["The Red Devils", "The Lions", "The Oranje", "The Gladiators"], answer: "The Red Devils" },
     { question: "Who is Belgium's all-time top goalscorer?", options: ["Eden Hazard", "Kevin De Bruyne", "Romelu Lukaku", "Dries Mertens"], answer: "Romelu Lukaku" },
