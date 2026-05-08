@@ -1,16 +1,56 @@
-# React + Vite
+⚽ Ball Knowledge – FIFA World Cup 2026 Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ball Knowledge is a React-based football web application that provides detailed insights and statistics for the FIFA World Cup 2026.
+The platform allows users to explore national teams, player profiles, quizzes, and create their own dream squads using an interactive interface powered by football data APIs.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#Team Details
+View all participating national teams
+Explore squad information and team data
+Interactive team selection interface
 
-## React Compiler
+# Player Profiles
+Detailed player information
+Player images and statistics
+Main foot, height, position, nationality, and more
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Football Quiz
+Quiz based on football teams and players
+Ranking system:
+Beginner Ball Knower
+Good Ball Knower
+Elite Ball Knower
+God Ball Knower
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Squad Builder
+Create your own custom football squad
+Experiment with different player combinations
+Interactive team-building experience
+
+
+## upcoming features 
+
+* multiplayer in squad builder 
+* login page 
+
+
+## Tech Stack used 
+
+React.js
+JavaScript
+HTML5
+CSS3
+Tailwind CSS
+
+##website link 
+
+https://ball-knowledge-alpha.vercel.app/
+
+
+contributors -
+
+Aditya Dhanraj Singh (adityasingh916)
+Resmanth Kumar Beesetti (resmanth)
+Gagandeep (gagandeep3016-sudo)
