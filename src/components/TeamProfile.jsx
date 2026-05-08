@@ -16,18 +16,8 @@ const  TeamProfile = ({ teamData, imageUrl, squadData }) => {
     return  new Intl.NumberFormat('en-US').format(num);
   };
 
-  const  getFormClass = (result) => {
-    if  (result === 'W') return 'form-badge win';
-    if  (result === 'L') return 'form-badge loss';
-    if  (result === 'D') return 'form-badge draw';
-    return 'form-badge';
-  };
-
-  const  primaryColor = team.teamColors?.primary || 'var(--accent-color)';
-  const  secondaryColor = team.teamColors?.secondary || '#1e293b';
-
   return (
-    <div  className="player-profile-card team-profile-card" style={{ '--team-primary': primaryColor, '--team-secondary': secondaryColor }}>
+    <div className="player-profile-card team-profile-card">
       <div  className="profile-header team-header">
         <div  className="profile-main-info">
           <div  className="player-avatar-container team-crest-container">
@@ -40,7 +30,7 @@ const  TeamProfile = ({ teamData, imageUrl, squadData }) => {
                 <span  className="badge country-badge">{team.country.name}</span>
               )}
               {team.primaryUniqueTournament?.name && (
-                <span  className="badge position-badge tournament-badge" style={{ background: primaryColor, color: '#000' }}>
+                <span className="badge position-badge tournament-badge">
                   {team.primaryUniqueTournament.name}
                 </span>
               )}
@@ -61,7 +51,7 @@ const  TeamProfile = ({ teamData, imageUrl, squadData }) => {
                 <span  className="form-label">Recent Form</span>
                 <div  className="form-badges-container">
                   {pregameForm.form.map((res, idx) => (
-                    <span key={idx} className={getFormClass(res)}>{res}</span>
+                    <span key={idx} className="form-badge">{res}</span>
                   ))}
                 </div>
               </div>
@@ -90,12 +80,11 @@ const  TeamProfile = ({ teamData, imageUrl, squadData }) => {
             <h3  className="squad-title">Projected Starting XI</h3>
             <div  className="squad-grid starting-xi-grid">
               {squadData.slice(0, 11).map((squadMember) => (
-                <div 
-                  key={squadMember.player.id} 
-                  className="squad-player-card"
-                  onClick={() => handlePlayerClick(squadMember.player.id)}
-                  style={{ cursor: 'pointer' }}
-                >
+                  <div
+                    key={squadMember.player.id}
+                    className="squad-player-card"
+                    onClick={() => handlePlayerClick(squadMember.player.id)}
+                  >
                   <img 
                     src="/player-avatar.png"
                     alt={squadMember.player.name}
