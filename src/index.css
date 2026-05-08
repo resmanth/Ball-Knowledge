@@ -631,9 +631,6 @@ button:disabled,
     flex-direction: column;
   }
 }
-  align-items: center;
-  gap: 0.4rem;
-}
 
 .live-dot {
   width: 8px;
