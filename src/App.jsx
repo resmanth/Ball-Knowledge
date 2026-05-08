@@ -6,18 +6,22 @@ import Players from './views/Players';
 import SquadBuilder from './views/SquadBuilder';
 
 function App() {
-    return (
-      <BrowserRouter>
-        <div className="app-container">
-          <Navbar />
-          
-        <main className=  "main-content">
+  return (
+    
+    <BrowserRouter>
+      <div className="app-container">
+       
+        <Navbar />
+        
+        <main className="main-content">
+         
           <Routes>
-          
+            
             <Route path="/" element={<Home />} />
-           
+            
+            
             <Route path="/teams" element={<Teams />} />
-
+            
             <Route path="/teams/:id" element={<Teams />} />
               
               <Route path="/players" element={<Players />} />
