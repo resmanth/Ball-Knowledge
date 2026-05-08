@@ -47,7 +47,7 @@ const Players = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '32b981aa21mshb566fb1e9bb13eep19eca7jsn25588907c339',
+          'x-rapidapi-key': '6e5b0b9014msh7885224e83994afp163b7bjsn710b673ee11a',
           'x-rapidapi-host': 'sportapi7.p.rapidapi.com'
         }
       };
